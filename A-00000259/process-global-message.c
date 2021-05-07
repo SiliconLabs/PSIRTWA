@@ -254,7 +254,7 @@ bool emAfProcessGlobalCommand(EmberAfClusterCommand *cmd)
         }
         // Check to see if there are dataSize bytes left in the message if it is a string
         if (emberAfIsThisDataTypeAStringType(dataType)
-            && (dataSize < msgLen - (msgIndex + 3))) {
+            && (dataSize > msgLen - (msgIndex + 3))) {
           // This command is malformed
           status = EMBER_ZCL_STATUS_MALFORMED_COMMAND;
         } else {
