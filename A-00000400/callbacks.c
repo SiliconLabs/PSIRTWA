@@ -1,4 +1,4 @@
-# Gecko SDK Licensing terms
+/*# Gecko SDK Licensing terms
 
 Source code in this SDK is covered by one of several different licenses.
 The default license is the Master Software License Agreement (MSLA) 
@@ -35,7 +35,7 @@ freely, subject to the following restrictions:
    appreciated but is not required.
 2. Altered source versions must be plainly marked as such, and must not be
    misrepresented as being the original software.
-3. This notice may not be removed or altered from any source distribution.
+3. This notice may not be removed or altered from any source distribution. */
 
 EmberPacketAction emberAfIncomingPacketFilterCallback(EmberZigbeePacketType packetType,
                                                       int8u* packetData,
